@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
@@ -22,6 +22,8 @@ public class Texto : MonoBehaviour {
             while ((line=read.ReadLine() )!= null) {
 
                 File.AppendAllText(@"C:\prueba3.txt", line + "\r\n");
+
+                //hola
 
             }         
 
